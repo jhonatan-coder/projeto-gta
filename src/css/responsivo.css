@@ -1,66 +1,135 @@
-@media (max-width: 1024px) {
-  .cabecalho {
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px 0;
-    gap: 15px;
-  }
+@media(max-width: 1650px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 80px;
+        height: 80px;
 
-  .cabecalho .menu li a {
-    padding: 15px;
-  }
-
-  .home .informacoes {
-    padding: 30px;
-  }
-
-  .home .informacoes img {
-    max-width: 100px;
-  }
-
-  .home .informacoes .titulo {
-    font-size: 40px;
-  }
-
-  .compre-ja .cartao {
-    width: 70%;
-  }
+    }
+    .lista-personagens {
+        width: 580px;
+        height: 630px;
+    }
+    .cartao .nome-personagem {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .cartao .descricao-personagem {
+        padding: 45px;
+    }
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 25px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .cartao .descricao-personagem .texto-personagem {
+        max-height: 50px;
+        font-size: 20px;
+        padding: 20px;
+    }
 }
+@media(max-width: 950px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 60px;
+        height: 60px;
 
-@media (max-width: 768px) {
-  .compre-ja {
-    padding: 30px;
-  }
-
-  .compre-ja .cartao {
-    padding: 80px 20px;
-    width: 100%;
-  }
-
-  .compre-ja .informacoes h3 {
-    font-size: 35px;
-  }
-
-  .compre-ja .informacoes .plataformas {
-    flex-direction: column;
-  }
-
-  .btn-plataforma {
-    margin-top: 15px;
-    padding: 15px;
-  }
-
-  .btn-comprar {
-    width: 100%;
-  }
+    }
+    .lista-personagens {
+        width: 380px;
+        height: 430px;
+    }
+    .cartao .nome-personagem {
+        font-size: 15px;
+        padding: 8px;
+    }
+    .cartao .descricao-personagem {
+        padding: 5px;
+    }
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .cartao .descricao-personagem .texto-personagem {
+        max-height: 50px;
+        font-size: 16px;
+    }
 }
+@media(max-width: 620px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 40px;
+        height: 40px;
 
-@media (max-width: 425px) {
-  main::after {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
-  }
+    }
+    .lista-personagens {
+        width: 380px;
+        height: 430px;
+    }
+    .cartao .nome-personagem {
+        font-size: 18px;
+        padding: 16px;
+    }
+    .cartao .descricao-personagem {
+        padding: 10px;
+    }
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 14px;
+    }
+    .cartao .descricao-personagem .texto-personagem {
+        max-height: 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width: 480px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 30px;
+        height: 30px;
 
-  .compre-ja .cartao .capa-do-jogo {
-    max-width: 80%;
-  }
+    }
+    .lista-personagens {
+        width: 280px;
+        height: 400px;
+    }
+
+    .cartao .nome-personagem {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cartao .descricao-personagem {
+        padding: 10px;
+    }
+
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 14px;
+    }
+    .cartao .descricao-personagem .texto-personagem {    
+        max-height: 50px;
+        font-size: 12px;
+    }
 }

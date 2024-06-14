@@ -1,104 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Semana do Zero ao Programador Contratado - Landing Page GTA</title>
-		<link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon" />
-		<link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+<html lang="en">
 
-		<link rel="stylesheet" href="./src/css/reset.css" />
-		<link rel="stylesheet" href="./src/css/estilos.css" />
-		<link rel="stylesheet" href="./src/css/fontes.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto01 - x-devs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
-	</head>
-	<body>
-		<header class="cabecalho">
-			<div class="logo">
-				<img src="./src/imagens/logo-rockstar.svg" alt="Logo Rockstar Games" />
-				<hr />
-				<img src="./src/imagens/logo-gta.svg" alt="Logo GTA V" />
-			</div>
-			<nav>
-				<ul class="menu">
-					<li>
-						<a href="#home">Home</a>
-					</li>
-					<li>
-						<a href="#comprar">Comprar</a>
-					</li>
-					<li>
-						<a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="./src/imagens/icone-link.svg" alt="Icone de link de suporte" /></a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main class="home" id="home">
-			<img class="imagem-fundo" src="./src/imagens/bg-main.png" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo" />
+</head>
 
-			<div class="informacoes">
-				<div class="lista-de-jogos">
-					<img src="./src/imagens/logo-gta-v.svg" alt="Logo GTA V" />
-					<img src="./src/imagens/logo-gta-online.svg" alt="Logo GTA Online" />
-				</div>
-				<h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
-				<p class="texto">Experimente os fênomenos de entretenimento Grand Theft Auto V e GTA Online</p>
+<body>
+    <header class="cabecalho">
+        <h1>Runeterra</h1>
+    </header>
 
-				<a class="btn-comprar" href="#comprar">Compre já</a>
-			</div>
-		</main>
-		<section class="compre-ja" id="comprar">
-			<h2 class="titulo">Compre já</h2>
-			<div class="cartao">
-				<img class="capa-do-jogo" src="./src/imagens/gta5.jpg" alt="Capa do jogo GTA V" />
+    <main class="personagem-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img class="img-btn" src="./src/img/—Pngtree—right arrow glyph black icon_3755432.png" alt="Seta de voltar">
+        </button>
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome-personagem"> Kori Tatsuhiko</h2>
+                <img class="imagem-personagem" src="./src/img/Kori_Tatsuhiko_Monge.png" alt="Kori Tatsuhiko">
+                <div class="descricao-personagem">
+                    <h3 class="titulo-personagem">Dragão/Ascendido/Aspecto do Dragão</h3>
+                    <p class="texto-personagem">
+                        Um dragão que aprendeu cedo a se virar para tornar seu sonho realidade, o fato de conseguir
+                        ajudar o máximo de pessoas possíveis através de seus poderes mágicos e sua capacidade medicinal.
+                        Se tornou um dos médicos mais influentes de runeterra, passando séculos a se concentrar em seu
+                        sonho, ter os melhores hospitais que o mundo poderia presenciar.
+                    </p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-2">
+                <h2 class="nome-personagem"> Alexander Murphy</h2>
+                <img class="imagem-personagem" src="./src/img/Alexander_Murphy_Atirador.png" alt="Alexander Murphy">
+                <div class="descricao-personagem">
+                    <h3 class="titulo-personagem">
+                        Ciborgue
+                    </h3>
+                    <p class="texto-personagem">
+                        Um ciborgue criado pela ZECT, uma empresa militar de segurança de Ravnica. Sua personalidade é
+                        séria, como um padrão dos ciborgues e ele tem uma irmã chamada Eilietta Murphy
+                    </p>
+                </div>
+            </li>
 
-				<div class="informacoes">
-					<h3>Grand Theft Auto V</h3>
-					<p>
-						Inclui <strong>modo história do GTA V</strong> e
-						<strong>GTA Online</strong>
-					</p>
-					<ul class="plataformas">
-						<li>
-							<img src="./src/imagens/logo-ps5.svg" alt="Logo Playstation 5" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-xbox-series-s.svg" alt="Logo Xbox series X|S" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-ps4.svg" alt="Logo Playstation 4" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-xbox-one.svg" alt="Logo Xbox One" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-pc.svg" alt="Logo PC" />
-						</li>
-					</ul>
-				</div>
-				<button class="btn-plataforma">
-					Selecione a plataforma
+            <li class="cartao fundo-3">
+                <h2 class="nome-personagem"> Eilietta Murphy</h2>
+                <img class="imagem-personagem" src="./src/img/Eilietta_Murphy_Cleriga.png" alt="Eilietta Murphy">
+                <div class="descricao-personagem">
+                    <h3 class="titulo-personagem">Ciborgue</h3>
+                    <p class="texto-personagem">
+                        Uma ciborgue criada pela ZECT, uma empresa militar de segurança de Ravnica. Sua personalidade é
+                        séria, como padrão dos ciborgues e ela tem um irmão chamado Alexander Muprhy.
+                    </p>
+                </div>
+            </li>
 
-					<ul class="plataformas">
-						<li>
-							<img src="./src/imagens/logo-ps5.svg" alt="Logo Playstation 5" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-xbox-series-s.svg" alt="Logo Xbox series X|S" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-ps4.svg" alt="Logo Playstation 4" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-xbox-one.svg" alt="Logo Xbox One" />
-						</li>
-						<li>
-							<img src="./src/imagens/logo-pc.svg" alt="Logo PC" />
-						</li>
-					</ul>
-				</button>
-			</div>
-		</section>
-		<script src="./src/js/index.js"></script>
-	</body>
+            <li class="cartao fundo-4">
+                <h2 class="nome-personagem"> Alluth </h2>
+                <img class="imagem-personagem" src="./src/img/Alluth_Assassino.png" alt="Alluth Assassino">
+                <div class="descricao-personagem">
+                    <h3 class="titulo-personagem">Ascendido</h3>
+                    <p class="texto-personagem">
+                        Um ascendido que está disposto a acabar com a maldade do mundo em prol de Shurima.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <h2 class="nome-personagem"> Maxwell Muligans</h2>
+                <img class="imagem-personagem" src="./src/img/Maxwell_Muligans_Tanque.png" alt="Maxwell Muligans">
+                <div class="descricao-personagem">
+                    <h3 class="titulo-personagem">Ciborgue</h3>
+                    <p class="texto-personagem">
+                        Era um humano comum, mas que aconteceu uma tragédia em Ravnica, mais precisamente na parte baixa
+                        da cidade, onde esse incidente acabou destruindo seu corpo e a de seus amigos também. Ele foi
+                        ajudado pela ZECT, conseguiram salvar uma parte essencial de seu corpo transformando-o em
+                        ciborgue.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img class="img-btn" src="./src/img/—Pngtree—right arrow glyph black icon_3755432.png" alt="Seta de avancar">
+        </button>
+    </main>
+
+
+    <script src="./src/js/index.js"></script>
+</body>
+
 </html>
